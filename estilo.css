@@ -1,0 +1,103 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	background: #91c5ff;
+	font-family: "Trebuchet MS", Helvetica, sans-serif;
+}
+
+#conteiner {
+	width: 400px;
+	height: 500px;
+	margin: 0 auto;
+	margin-top: 65px;
+	text-align: center;
+	background-color: #fff;
+	border-radius: 20px;
+	box-shadow: 1px 1px 5px 5px rgba(236, 236, 236, 0.5);
+}
+
+/* Titulo
+_______________________________________________ */
+
+h1 {
+	font-size: 28px;
+	font-weight: bold;
+}
+
+.titulo {
+	padding-top: 20px;
+	color: #1b1b1b;
+}
+
+.titulo2 {
+	padding-top: 5px;
+	font-size: 13px;
+	color: #666666;
+}
+
+.titulo2 a {
+	text-decoration: none;
+	color: #a13cff;
+}
+
+/* Inputs
+_______________________________________________ */
+
+.caixas {
+	margin-top: 20px;
+}
+
+input {
+	padding: 10px;
+	width: 300px;
+	border-radius: 10px;
+	border-color: #d6d6d6;
+	border-style: solid;
+}
+
+input::placeholder {
+	color: #b6b6b6;
+}
+
+/* Botão
+_______________________________________________ */
+
+.pequeno {
+	width: 200px;
+	padding: 10px;
+	border-radius: 10px;
+	border-style: none;
+	background-image: linear-gradient(to right, #91c5ff, #d38aff);
+	color: white;
+	cursor: pointer;
+	margin: 10px;
+}
+
+.grande1 {
+	width: 320px;
+	padding: 10px;
+	border-radius: 10px;
+	border-style: none;
+	background-image: linear-gradient(to right, #1d84ff, #91c5ff);
+	color: white;
+	cursor: pointer;
+	margin-bottom: 10px;
+}
+
+.grande2 {
+	width: 320px;
+	padding: 10px;
+	border-radius: 10px;
+	border-style: none;
+	background-image: linear-gradient(to right, #8b8b8b, #bfbfbf);
+	color: white;
+	cursor: pointer;
+	margin-bottom: 10px;
+}
+
+i {
+	margin-right: 10px;
+}
